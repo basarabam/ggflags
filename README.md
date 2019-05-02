@@ -9,6 +9,8 @@ library(ggflags)
 
     ## Loading required package: ggplot2
 
+    ## Loading required package: grid
+
 ``` r
 set.seed(1234)
 d <- data.frame(x=rnorm(50), y=rnorm(50), 
@@ -19,9 +21,10 @@ ggplot(d, aes(x=x, y=y, country=country, size=x)) +
   scale_country()
 ```
 
-![](README_files/figure-markdown_github/demo-1.png)<!-- -->
+![](README_files/figure-markdown_github/demo-1.png)
 
-The flags are taken from wikipedia via <https://github.com/behdad/region-flags>
+The flags are taken from wikipedia via
+<https://github.com/behdad/region-flags>
 
 ![](README_files/figure-markdown_github/flags.png)
 
