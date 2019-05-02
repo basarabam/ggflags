@@ -38,4 +38,3 @@ ggplot(d, aes(x=x, y=y, country=country, size=x)) +
   geom_flag() + 
   scale_country()
 }
-
