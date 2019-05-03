@@ -24,7 +24,7 @@ ggplot(d, aes(x=x, y=y, country=country, size=x)) +
 ![](README_files/figure-markdown_github/demo-1.png)
 
 The flags are taken from wikipedia via
-<https://github.com/behdad/region-flags>
+<https://github.com/behdad/region-flags> with some added missing flags historical flagse (yu, dr-de
 
 ![](README_files/figure-markdown_github/flags.png)
 
